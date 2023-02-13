@@ -1,0 +1,68 @@
+@import "https://fonts.googleapis.com/css?family=Oswald";
+@import "https://fonts.googleapis.com/css?family=Quattrocento";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Oswald";
+@import "https://fonts.googleapis.com/css?family=Quattrocento";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../image/Background.png);
+}
+
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  /* border-bottom: 1px solid rgb(96, 91, 91); */
+  background: rgba( 255, 255, 255, 0.02 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 100px;
+  transition: all 0.3s ease;
+
+}
+
+.nav-logo {
+  color: #fff;
+}
+
+.nav-wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav-wrapper ul li {
+  margin: 0 5px;
+}
+
+.nav-wrapper ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.nav-wrapper ul li a:hover {
+  color: #111;
+  background: #fff;
+}

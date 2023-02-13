@@ -1,0 +1,173 @@
+@import "https://fonts.googleapis.com/css?family=Oswald";
+@import "https://fonts.googleapis.com/css?family=Quattrocento";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Oswald";
+@import "https://fonts.googleapis.com/css?family=Quattrocento";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Sora";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../image/Background.png);
+}
+.beranda-container {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+  }
+.judul-wrapper{
+    width: 60%;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 100px;
+    /* border: 1px solid green; */
+}
+.judul-wrapper h2{
+    /* border: 1px solid rgb(37, 245, 61); */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+
+/* identical to box height */
+
+text-align: left;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.84);
+}
+.judul-wrapper h1{
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+text-align: left;
+
+/* Gradient */
+
+background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.judul-wrapper h3{
+padding-top: 10px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: left;
+
+color: #FFFFFF;
+
+}
+.smktelkom{
+background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.right-player{
+    width: 40%;
+    padding: 40px;
+    padding-top: 10px
+}
+.second-section{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-image: url(../image/Background.png);
+}
+.left-player{
+    width: 45%;
+    padding: 0px;
+    padding-top: 10px
+}
+.right-content{
+    padding-top: 100px;
+    width: 55%;
+}
+.second-wrapper{
+
+    width: 90%;
+    text-align: center;
+    margin-top: 80px;
+    padding-left: 10px;
+    /* border: 1px solid green; */
+}
+.tech-wrapper{
+    cursor: pointer;
+    margin-top: 30px;
+    /* border: 1px solid blue; */
+    text-align: left;   
+}
+.tech-wrapper img{
+    align-items: left;
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.03 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: left;
+    border: 1px solid transparent;
+    width: 90%;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.tech-wrapper img:hover {
+    border-color: rgb(47, 186, 255);
+}
+.second-wrapper h2{
+    /* border: 1px solid rgb(37, 245, 61); */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+
+/* identical to box height */
+
+text-align: left;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.84);
+}
+.second-wrapper h1{
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+text-align: left;
+
+/* Gradient */
+
+background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.second-wrapper h3{
+padding-top: 10px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: left;
+
+color: #FFFFFF;
+
+}
+.smktelkom{
+background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}

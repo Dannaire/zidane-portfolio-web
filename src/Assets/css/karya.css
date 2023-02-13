@@ -1,0 +1,126 @@
+@import "https://fonts.googleapis.com/css?family=Oswald";
+@import "https://fonts.googleapis.com/css?family=Quattrocento";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Oswald";
+@import "https://fonts.googleapis.com/css?family=Quattrocento";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Sora";
+.karya-title {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    line-height: 91px;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 120px;
+    position: relative;
+  }
+  .karya-title::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+  }
+  
+  .karya-subtitle {
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 35px;
+  }
+  
+  .karya-content {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../image/karya-content-1.png);
+    justify-content: center;
+    align-items: center;
+    height: 512px;
+    width: 90%;
+    margin: 50px auto;
+    border: 1px solid black;
+    box-shadow: 4px 0px 24px rgba(75, 126, 255, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
+    padding: 10px;
+  }
+  .content-title {
+    /* border: 1px solid white; */
+    padding-left: 80px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 91px;
+    text-align: center;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .content-subtitle {
+    padding-left: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .karya-wrapper {
+    padding-bottom: 80px;
+    /* border: 1px solid green; */
+    margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex: 1;
+        padding-left: 10px;
+  }
+  .karya-button {
+    display: block;
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-radius: 5px;
+    transition: all 0.3s;
+    /* border: 1px solid blue; */
+    box-shadow: 4px 0px 24px rgba(75, 126, 255, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
+    border-radius: 12px;
+    float: left;
+  }
+  
+  .karya-button:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }

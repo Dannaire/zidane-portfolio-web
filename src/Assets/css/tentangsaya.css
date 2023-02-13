@@ -1,0 +1,200 @@
+@import "https://fonts.googleapis.com/css?family=Oswald";
+@import "https://fonts.googleapis.com/css?family=Quattrocento";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Oswald";
+@import "https://fonts.googleapis.com/css?family=Quattrocento";
+@import "https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap";
+@import "https://fonts.googleapis.com/css?family=Sora";
+.tentang-saya-container {
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+  }
+  
+  .left-column {
+    width: 40%;
+    text-align: center;
+  }
+  
+  .right-column {
+    width: 60%;
+    padding: 40px;
+    padding-top: 70px
+  }
+  
+  .tentang-saya-photo-card {
+    display: inline-block;
+    border-radius: 20px;
+    margin: 40px 0;
+    text-align: center;
+    box-shadow: 4px 0px 24px rgba(93, 93, 93, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
+  }
+  
+  .tentang-saya-photo-card img {
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* .tentang-saya-photo-card h3 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .tentang-saya-photo-card p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  } */
+  .about-me h2{
+    cursor: pointer;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 91px;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .about-me p{
+    cursor: pointer;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+  }
+  .about-me-button {
+    display: block;
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+    /* border: 1px solid blue; */
+    box-shadow: 4px 0px 24px rgba(75, 126, 255, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
+    float: left;
+  }
+  
+  .about-me-button:hover {
+    background-color: rgba(255, 254, 254, 0.022);
+    color: #333;
+    cursor: pointer;
+  }
+  .about-me h5{
+    color: #FFFFFF;
+    font-family: 'Sora';
+    font-style: normal;
+    font-size: 24px;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  *:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+.sosmed-wrapper {
+  display: inline-flex;
+  list-style: none;
+}
+
+.sosmed-wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sosmed-wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sosmed-wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sosmed-wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.sosmed-wrapper .icon:hover span,
+.sosmed-wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.sosmed-wrapper .Spotify:hover,
+.sosmed-wrapper .Spotify:hover .tooltip,
+.sosmed-wrapper .Spotify:hover .tooltip::before {
+  background: #32750e;
+  color: #ffffff;
+}
+
+.sosmed-wrapper .linkedin:hover,
+.sosmed-wrapper .linkedin:hover .tooltip,
+.sosmed-wrapper .linkedin:hover .tooltip::before {
+  background: #1d80f2;
+  color: #ffffff;
+}
+
+.sosmed-wrapper .instagram:hover,
+.sosmed-wrapper .instagram:hover .tooltip,
+.sosmed-wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.sosmed-wrapper .github:hover,
+.sosmed-wrapper .github:hover .tooltip,
+.sosmed-wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.sosmed-wrapper .youtube:hover,
+.sosmed-wrapper .youtube:hover .tooltip,
+.sosmed-wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
