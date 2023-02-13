@@ -1,2 +1,2 @@
 # link: 
-[https://muhammadzidanefajportfolio-dannaire.vercel.app/)
+https://muhammadzidaneportfolio.vercel.app/
