@@ -14,7 +14,7 @@ class Beranda extends React.Component{
        
                 <h2>Hi, my name is</h2>
                 <h1>Muhammad Zidane Fajarianto <br></br>I am a Frontend Engineer</h1>
-                <h3>1+ years of making the job done in the <span className='smktelkom'>SMK Telkom Malang!</span><br></br>I am a Frontend Engineer with a business mindset from bringing the <br></br>latest tech to launching successful startups!</h3>
+                <h3>1+ years of making the job done in the <span className='smktelkom'>SMK Telkom Malang!</span><br></br>I am a Frontend Engineer with a business mindset from bringing the latest tech to launching successful startups!</h3>
                 </div>
                 <div className='right-player'>
                 <Player
