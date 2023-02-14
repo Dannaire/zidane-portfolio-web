@@ -32,8 +32,8 @@
   
   .tentang-saya-photo-card img {
     border-radius: 20px;
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
     object-fit: cover;
   }
   
@@ -197,4 +197,27 @@
 .sosmed-wrapper .youtube:hover .tooltip::before {
   background: #CD201F;
   color: #ffffff;
+}
+@media (max-width: 767px) {
+.tentang-saya-container{
+  display: flex;
+  flex-direction: column;
+}
+.tentang-saya-photo-card img {
+  border-radius: 20px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.left-column {
+  width: 100%;
+  text-align: center;
+}
+
+.right-column {
+  width: 100%;
+  padding: 40px;
+  padding-top: 70px
+}
+
 }

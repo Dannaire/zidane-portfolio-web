@@ -63,6 +63,76 @@ body {
 }
 
 .nav-wrapper ul li a:hover {
-  color: #111;
-  background: #fff;
+  color: rgb(0, 132, 255);
+  background: rgba( 255, 255, 255, 0.02 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+}
+.nav-wrapper .menu-btn i {
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+#click:checked~.menu-btn i:before {
+  content: "\f00d";
+}
+
+#click:checked~ul {
+  left: 0;
+}
+
+#click:checked~ul li a {
+  margin-left: 0px;
+}
+@media (max-width: 1000px) {
+  .nav-wrapper {
+      padding: 0 40px 0 50px;
+  }
+}
+
+@media (max-width: 920px) {
+  .nav-wrapper .menu-btn i {
+      display: block;
+  }
+  .nav-wrapper ul {
+      position: fixed;
+      top: 80px;
+      left: -100%;
+      background: rgba(2, 2, 2, 0.4);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
+  backdrop-filter: blur( 5.5px );
+  -webkit-backdrop-filter: blur( 5.5px );
+      height: 100vh;
+      z-index: 9;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+  }
+  .nav-wrapper ul li {
+      width: 100%;
+      margin: 40px 0;
+  }
+  .nav-wrapper ul li a {
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .nav-wrapper ul li a:hover {
+      background: none;
+      color: cyan;
+  }
+  .nav-wrapper ul li a.active {
+      background: none;
+      color: cyan;
+  }
 }

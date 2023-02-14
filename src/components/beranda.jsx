@@ -3,6 +3,7 @@ import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import '../Assets/css/beranda.css'
 import TentangSaya from './tentangsaya';
 import Karya from './karya';
+import Kontak from './kontak'
 import tech from '../Assets/image/tech.png'
 class Beranda extends React.Component{
     render(){
@@ -17,14 +18,14 @@ class Beranda extends React.Component{
                 <h3>1+ years of making the job done in the <span className='smktelkom'>SMK Telkom Malang!</span><br></br>I am a Frontend Engineer with a business mindset from bringing the latest tech to launching successful startups!</h3>
                 </div>
                 <div className='right-player'>
-                <Player
-        ref={this.player} // set the ref to your class instance
-        autoplay={true}
-        loop={true}
-        controls={true}
-        src="https://assets10.lottiefiles.com/packages/lf20_vnikrcia.json"
-        style={{ height: '500px', width: '500px' }}
-      ></Player>
+                <Player ref={this.player} // set the ref to your class instance
+                        autoplay={true}
+                        loop={true}
+                        controls={true}
+                        src="https://assets10.lottiefiles.com/packages/lf20_vnikrcia.json"
+                        style={{ height: '100%', width: '100%' }}>
+        
+                </Player>
       </div>
             </div>
             <div className='second-section'>
@@ -33,7 +34,7 @@ class Beranda extends React.Component{
             </div>
             <div className='second-section'>
             <div className='left-player'>
-            <Player
+            <Player 
         ref={this.player} // set the ref to your class instance
         autoplay={true}
         loop={true}
@@ -55,7 +56,7 @@ class Beranda extends React.Component{
             </div>
            
             <Karya/>
-            
+            <Kontak/>
             </div>
         )
     }

@@ -171,3 +171,49 @@ background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
 -webkit-text-fill-color: transparent;
 background-clip: text;
 }
+@media only screen and (max-width: 768px) {
+    .video-player{
+        width: 10px;
+        height: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .beranda-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .judul-wrapper {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+      }
+      .right-player {
+        /* display:none; */
+        width: 100%;
+        padding: 20px;
+      }
+      .left-player {
+        display: none;
+        width: 100%;
+        padding-left: 0;
+      }
+      .right-content {
+        padding-top: 50px;
+        width: 100%;
+      }
+      .tech-wrapper img {
+        width: 100%;
+      }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    Player {
+      height: 400px;
+      width: 100%;
+    }
+  }
+  @media (min-width: 992px) {
+    Player {
+      height: 500px;
+      width: 100%;
+    }
+  }
