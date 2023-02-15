@@ -63,7 +63,7 @@ color: #FFFFFF;
     font-family: 'Sora';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     /* line-height: 91px; */
     background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
     -webkit-background-clip: text;
@@ -77,7 +77,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 91px;
+    line-height: 61px;
     background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
