@@ -233,7 +233,7 @@ background-clip: text;
         text-align: center;
         margin-top: 80px;
         /* padding-left: 10px; */
-        border: 1px solid green;
+        /* border: 1px solid green; */
     }
     .tech-wrapper{
         cursor: pointer;
