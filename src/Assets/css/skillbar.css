@@ -45,12 +45,13 @@ color: #FFFFFF;
 }
 .right-skill{
     width:50%;
+    padding-top: 50px;
 }
 .skillbar-container{
-    min-width: 650px;
-    max-height:700px;
+    min-width: 650px;   
+    /* max-height:700px; */
     margin: 0 auto;
-    margin-bottom: 100px;
+    /* margin: 100px; */
     /* border: 1px solid blue; */
     box-shadow: 4px 0px 24px rgba(75, 126, 255, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
     padding: 30px;
@@ -77,9 +78,45 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 61px;
+    line-height: 51px;
     background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+@media (max-width: 767px) {
+    .container-skill{
+        flex-direction: column;
+    }
+    .left-skill{
+        /* border: 1px solid red;    */
+        width: 100%;
+        padding:0 2em;
+        /* padding-left: 3em; */
+    }
+    .right-skill{
+        width: 100%;
+    }
+    .skillbar-container{
+        max-width: 600px;
+        min-width: 280px;
+        margin-bottom: 10%;
+
+    }
+    .left-skill h2{
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        }
+        .left-skill h1{
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        }
+        .left-skill h3{
+        padding-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        text-align: center;
+        }
 }

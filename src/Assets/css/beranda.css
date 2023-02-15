@@ -82,7 +82,8 @@ background-clip: text;
     height: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    padding-top: 20pxpx;
+    /* margin-top: 40px; */
     background-image: url(../image/Background.png);
 }
 .left-player{
@@ -183,10 +184,30 @@ background-clip: text;
         flex-direction: column;
     }
     .judul-wrapper {
+      /* border: 1px solid green; */
+      padding:0 1px;
         width: 100%;
-        padding-left: 0;
+        /* padding-left: 0; */
         text-align: center;
       }
+    .judul-wrapper h2{
+        /* border: 1px solid rgb(37, 245, 61); */
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    }
+    .judul-wrapper h1{
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    }
+    .judul-wrapper h3{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    
+    }
       .right-player {
         /* display:none; */
         width: 100%;
@@ -203,7 +224,43 @@ background-clip: text;
       }
       .tech-wrapper img {
         width: 100%;
+        margin:0 auto;
       }
+      .second-wrapper{
+        padding: 1em;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 80px;
+        /* padding-left: 10px; */
+        border: 1px solid green;
+    }
+    .tech-wrapper{
+        cursor: pointer;
+        margin-top: 30px;
+        /* border: 1px solid blue; */
+        text-align: center;   
+    }
+    
+
+    .second-wrapper h2{
+        /* border: 1px solid rgb(37, 245, 61); */
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    }
+    .second-wrapper h1{
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    
+    /* Gradient */
+    
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
   }
   @media (min-width: 768px) and (max-width: 991px) {
     Player {

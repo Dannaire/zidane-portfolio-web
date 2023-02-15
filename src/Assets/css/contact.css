@@ -143,5 +143,8 @@
   .contact-title::after{
     width: 50%;
   }
+  .contact-sosmed{
+    box-shadow: none;
+  }
   
   }
