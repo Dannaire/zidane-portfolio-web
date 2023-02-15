@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Assets/css/karya.css'
+// import SkillBars from './skillbar';
 class Karya extends React.Component{
     render(){
         return(
@@ -17,6 +18,7 @@ class Karya extends React.Component{
                
                 </div>
                 </div>
+                    
                 
             </div>
         )

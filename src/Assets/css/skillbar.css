@@ -1,0 +1,85 @@
+.container-skill{
+    margin-top: 50px;
+    display: flex;
+}
+.left-skill{
+    width: 50%;
+    padding: 100px;
+}
+.left-skill h2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+
+/* identical to box height */
+
+text-align: left;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.84);
+}
+.left-skill h1{
+    font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+text-align: left;
+
+/* Gradient */
+
+background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.left-skill h3{
+    padding-top: 10px;
+font-family: 'Sora';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: left;
+
+color: #FFFFFF;
+}
+.right-skill{
+    width:50%;
+}
+.skillbar-container{
+    min-width: 650px;
+    max-height:700px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    /* border: 1px solid blue; */
+    box-shadow: 4px 0px 24px rgba(75, 126, 255, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
+    padding: 30px;
+    width: 50%;
+    margin-top: 10px;
+  }
+.skillbar-container h2{
+    /* padding-left: 33%; */
+    cursor: pointer;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    /* line-height: 91px; */
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.skillbar-container h3{
+    /* padding-left: 33%; */
+    cursor: pointer;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 91px;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

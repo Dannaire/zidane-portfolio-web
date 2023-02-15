@@ -79,7 +79,7 @@ background-clip: text;
     padding-top: 10px
 }
 .second-section{
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 40px;

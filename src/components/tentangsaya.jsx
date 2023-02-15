@@ -2,6 +2,7 @@ import React from 'react'
 import '../Assets/css/tentangsaya.css'
 import About from '../Assets/image/aboutmefoto.JPG'
 import { Link } from "react-router-dom";
+import SkillBars from './skillbar';
 class TentangSaya extends React.Component{
     render(){
         return(
@@ -57,8 +58,10 @@ class TentangSaya extends React.Component{
             </div>
             </div>
             </div>
-
+            
+            <SkillBars/>
             </div>
+            
         )
     }
 }

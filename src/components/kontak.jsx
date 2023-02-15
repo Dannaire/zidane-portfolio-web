@@ -44,6 +44,7 @@ class Kontak extends React.Component{
         </a>
    
       </ul>
+      
       </div>
                
                 </div>

@@ -198,6 +198,7 @@
   background: #CD201F;
   color: #ffffff;
 }
+
 @media (max-width: 767px) {
 .tentang-saya-container{
   display: flex;
