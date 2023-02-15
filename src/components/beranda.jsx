@@ -40,7 +40,7 @@ class Beranda extends React.Component{
         loop={true}
         controls={true}
         src="https://assets10.lottiefiles.com/packages/lf20_wdhfjhyc.json"
-        style={{ height: '600px', width: '600px' }}
+        style={{ height: '100%', width: '100%' }}
       ></Player>
       </div>
       <div className='right-content'>

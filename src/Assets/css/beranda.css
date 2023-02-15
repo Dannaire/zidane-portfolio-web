@@ -82,7 +82,7 @@ background-clip: text;
     height: 100%;
     display: flex;
     justify-content: space-between;
-    padding-top: 20pxpx;
+    padding-top: 20px;
     /* margin-top: 40px; */
     background-image: url(../image/Background.png);
 }
@@ -214,9 +214,9 @@ background-clip: text;
         padding: 20px;
       }
       .left-player {
-        display: none;
+        /* display: none; */
+        /* border: 1px solid white; */
         width: 100%;
-        padding-left: 0;
       }
       .right-content {
         padding-top: 50px;
@@ -226,12 +226,17 @@ background-clip: text;
         width: 100%;
         margin:0 auto;
       }
+      .second-section{
+        
+        display: flex;
+        flex-direction: column;
+      }
       .second-wrapper{
         padding: 1em;
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        margin-top: 80px;
+        margin-top: 0px;
         /* padding-left: 10px; */
         /* border: 1px solid green; */
     }
