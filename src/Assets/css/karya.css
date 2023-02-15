@@ -124,3 +124,41 @@
     color: #333;
     cursor: pointer;
   }
+  @media(max-width:768px){
+    .karya-title {
+      font-family: 'Sora';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      text-align: center;
+      line-height: 41px;
+    }
+    
+    .karya-subtitle {
+      font-size: 20px;
+    }
+  .content-title {
+    /* border: 1px solid white; */
+    padding: 0 0.3em;
+    margin: 0;
+    text-align: center;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    /* line-height: 91px; */
+    text-align: center;
+  }
+  .content-subtitle {
+    padding-left: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+  }
+  .karya-button{
+    font-size: 20px;
+    text-align: center;
+    margin: 30px 20%;
+  }
+  }
