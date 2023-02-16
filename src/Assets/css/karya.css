@@ -137,6 +137,9 @@
     .karya-subtitle {
       font-size: 20px;
     }
+    .karya-content{
+      height: 400px;
+    }
   .content-title {
     /* border: 1px solid white; */
     padding: 0 0.3em;

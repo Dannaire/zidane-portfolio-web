@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function SkillBars() {
   return (
     <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <div className='container-skill'>
       <div className='left-skill'>
       <h2>Hello Visitors</h2>
