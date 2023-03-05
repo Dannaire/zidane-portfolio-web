@@ -19,10 +19,10 @@ function SkillBars() {
     <div className='skillbar-container'>
     <h2>Skill</h2>
     <div className='skillbar-wrapper'>
-      <h3>HTML 5 <ProgressBar animated now={95} /> </h3>
-      <h3>CSS 3<ProgressBar animated now={87} /></h3>
-      <h3>JavaScript<ProgressBar animated now={58} /></h3>
-      <h3>PHP<ProgressBar animated now={70} /></h3>
+      <h3>HTML 5 <ProgressBar animated now={83} /> </h3>
+      <h3>CSS 3<ProgressBar animated now={80} /></h3>
+      <h3>JavaScript<ProgressBar animated now={51} /></h3>
+      <h3>PHP<ProgressBar animated now={61} /></h3>
   </div>
   </div>
   </div>

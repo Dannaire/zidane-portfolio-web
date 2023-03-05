@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Assets/css/karya.css'
+import Card from './card'
 // import SkillBars from './skillbar';
 class Karya extends React.Component{
     render(){
@@ -13,6 +14,7 @@ class Karya extends React.Component{
                 <div className='karya-subtitle'>
                 I am a Frontend Engineer with a business mindset <br></br>from bringing the latest tech to launching successful startups!
                 </div>
+                <Card/>
                 <div className='karya-content'>
                 <div className='karya-wrapper'>
                 <div className='content-title'>All project</div>
