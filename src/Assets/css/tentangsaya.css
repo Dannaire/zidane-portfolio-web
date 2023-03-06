@@ -235,6 +235,40 @@
   padding: 40px;
   padding-top: 70px
 }
-
-
+}
+@media (max-width: 1024px) {
+  .tentang-saya-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .tentang-saya-photo-card{
+    box-shadow: none;
+  }
+  .tentang-saya-photo-card img{
+    box-shadow: 4px 0px 24px rgba(93, 93, 93, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
+  }
+  .left-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-me h2{
+    font-size: 50px;
+    text-align: center;
+  }
+  .about-me p{
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .about-me-button{
+    width: 100%;
+    padding: 15px;
+  }
+  .right-column {
+    width: 100%;
+    padding: 40px;
+    padding-top: 70px
+  }
 }
