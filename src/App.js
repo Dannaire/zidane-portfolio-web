@@ -28,7 +28,6 @@ class App extends React.Component{
                <li><Link to="/tentangsaya">Tentang saya</Link></li> 
                <li><Link to="/karya">Karya</Link></li> 
                <li> <Link to="/kontak">Kontak</Link></li> 
-               <li> <Link to="/gallery">Gallery</Link></li> 
                 </ul>
               
                 </div>

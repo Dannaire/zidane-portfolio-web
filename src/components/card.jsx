@@ -34,7 +34,7 @@ function Card() {
           </div>
         </div>
         <div className="card-1">
-        <Link to="https://daily-news-actual.vercel.app/" target='_blank'><h1 className="title">Calculator</h1></Link>
+        <Link to="https://daily-news-actual.vercel.app/" target='_blank'><h1 className="title">News Web</h1></Link>
           {/* <img src="http://www.ranjotsingh.com/git.png" /></h1> */}
           <div className="imgCont"> <img src={calc} />
             <div className="caption">Next Js | Tailwind</div>
