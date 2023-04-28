@@ -6,6 +6,7 @@ import Beranda from './beranda';
 import Karya from './karya';
 import Kontak from './kontak';
 import TentangSaya from './tentangsaya';
+import Gallery from './Gallery';
 const Utama= () =>{
   return (
 <>
@@ -16,6 +17,8 @@ const Utama= () =>{
           <Route path="/Karya" element={<Karya/>}/>
           <Route path="/Kontak" element={<Kontak/>}/>
           <Route path="/Tentangsaya" element={<TentangSaya/>}/>
+          <Route path="/gallery" component={Gallery} />
+
       </Routes>
       
     </>

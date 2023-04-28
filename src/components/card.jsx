@@ -2,7 +2,7 @@ import React from 'react';
 import '../Assets/css/card.css'
 import sneaky from '../Assets/image/sneaky.jpeg'
 import yoel from '../Assets/image/yoel.jpeg'
-import calc from '../Assets/image/calculatorweb.jpeg'
+import calc from '../Assets/image/dailynews.jpeg'
 import next from '../Assets/image/nextjs-icon.png'
 import { Link } from 'react-router-dom';
 
@@ -34,10 +34,10 @@ function Card() {
           </div>
         </div>
         <div className="card-1">
-        <Link to="https://kelompok5-react.vercel.app/" target='_blank'><h1 className="title">Calculator</h1></Link>
+        <Link to="https://daily-news-actual.vercel.app/" target='_blank'><h1 className="title">Calculator</h1></Link>
           {/* <img src="http://www.ranjotsingh.com/git.png" /></h1> */}
           <div className="imgCont"> <img src={calc} />
-            <div className="caption">React Js | CSS3</div>
+            <div className="caption">Next Js | Tailwind</div>
             <div className="desc"> 
             <p>Welcome to our online calculator app, where you can discover the latest trends in calculator app and elevate your calculator game. our calculator website makes demonstration for calculate an math.</p>
             </div>
